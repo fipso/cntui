@@ -4,7 +4,7 @@ Little cli/tui tool to export HTTP requests to cURL commands from the terminal.
 Currently exports requests to your X11 clipboard using xclip. 
   
 ### Installation
-Requirements: go, xlcip  
+Requirements: go, xclip  
   
 `git clone https://github.com/fipso/cntui.git`  
 `go build .`  
@@ -16,7 +16,7 @@ Requirements: go, xlcip
 - Select tab you want to hack on  
 - Run `cntui`  
 - Select a request. Hit enter
-- cURL command is now in you clipboard. Paste. Have fun
+- cURL command is now in your clipboard. Paste. Have fun
 
 ### TODO:
 - [ ] Edit Mode: edit post body in terminal editor
