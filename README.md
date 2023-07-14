@@ -2,6 +2,9 @@
 
 Little cli/tui tool to export HTTP requests to cURL commands from the terminal.  
 Currently exports requests to your X11 clipboard using xclip. 
+
+![image](https://github.com/fipso/cntui/assets/8930842/074541a2-10a5-426a-aaad-b6051b81e5f8)
+
   
 ### Installation
 Requirements: go, xclip  
