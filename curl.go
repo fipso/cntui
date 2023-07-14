@@ -31,6 +31,6 @@ func exportAsCurl(req *request) {
 		method = fmt.Sprintf(" -X %s", req.req.Method)
 	}
 
-	cmd := fmt.Sprintf("curl '%s'%s%s%s", req.req.URL, headers, body, method)
+	cmd := fmt.Sprintf("curl%s%s%s '%s'", headers, body, method, req.req.URL)
 	clipboard.WriteAll(cmd)
 }
